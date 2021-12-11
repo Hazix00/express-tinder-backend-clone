@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add mongoose
+
+PATH: 
+  C:\Program Files\PowerShell\7;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Python27\;C:\Python27\Scripts;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\WinMerge;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\HaxeToolkit\haxe;C:\HaxeToolkit\neko;C:\Program Files;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Python3\;C:\Program Files\Go\bin;C:\HaxeToolkit\haxe;C:\HaxeToolkit\neko;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Brackets\command;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PowerShell\7\;C:\Users\User\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\User\AppData\Roaming\Composer\vendor\bin;C:\Users\User\AppData\Roaming\npm;E:\laragon\bin;E:\laragon\bin\apache\httpd-2.4.27-win64-VC14\bin;E:\laragon\bin\composer;E:\laragon\bin\git\bin;E:\laragon\bin\git\cmd;E:\laragon\bin\git\mingw64\bin;E:\laragon\bin\git\usr\bin;E:\laragon\bin\laragon\utils;E:\laragon\bin\mysql\mysql-5.7.24-winx64\bin;E:\laragon\bin\nginx\nginx-1.14.0;E:\laragon\bin\ngrok;E:\laragon\bin\nodejs\node-v10;E:\laragon\bin\notepad++;E:\laragon\bin\php\php-7.4.0-Win32-vc15-x64;E:\laragon\bin\putty;E:\laragon\bin\redis\redis-x64-3.2.100;E:\laragon\bin\telnet;E:\laragon\bin\yarn\bin;E:\laragon\usr\bin;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\bin\flutter\bin;C:\Users\User\.nimble\bin;C:\Users\User\AppData\Local\Programs\Azure Data Studio\bin;C:\tools\neovim\Neovim\bin;C:\Users\User\.deno\bin;E:\Android\Sdk\platform-tools;C:\Program Files\DAUM\PotPlayer;C:\youtube-dl-gui-2.24;C:\bin\bin;C:\bin\ffmpeg\bin;C:\Program Files\VideoLAN\VLC;C:\Program Files (x86)\Nmap;C:\Users\User\.dotnet\tools;C:\bin\mupdf;C:\Users\User\AppData\Roaming\Pub\Cache\bin;C:\tools\dart-sdk\bin;C:\Program Files\Firefox Developer Edition;C:\Users\User\AppData\Local\Yarn\bin;C:\youtube-dl-gui-2.52
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir 'E:\Projects\NodeJS\express-tinder-backend-clone\node_modules\express\node_modules'
+
+npm manifest: 
+  {
+    "name": "express-tinder-backend-clone",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+      "dev": "ts-node-dev --respawn --pretty --transpile-only src/index.ts",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "express-tinder-backend-clone"
+    },
+    "author": "Hamza Taoussi",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "express-jwt": "^6.1.0",
+      "helmet": "^4.6.0",
+      "jwks-rsa": "^2.0.5"
+    },
+    "devDependencies": {
+      "@types/cors": "^2.8.12",
+      "@types/express": "^4.17.13",
+      "@types/express-jwt": "^6.0.2",
+      "@types/jest": "^27.0.2",
+      "@types/node": "^16.11.6",
+      "jest": "^27.3.1",
+      "ts-node-dev": "^1.1.8",
+      "typescript": "^4.4.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
